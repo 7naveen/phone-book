@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    color: grey;
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    width: 40%;
+    margin: 0px auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    background: blue;
+}
+
+li:hover {
+    background: grey;
+}
+
+#name {
+    margin-left: 2%;
+}
+
+#phone {
+    margin-right: 4%;
+}
+
+#delete {
+    display: flex;
+    margin-right: 2%;
+}
+
+#d-b {
+    margin-top: 17px;
+    margin-right: 1%;
+    color: red;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    padding: 4px;
+    margin-left: 2%;
+    width: 15%;
+}
+
+button {
+    width: 6%;
+    margin-left: 2%;
+    color: white;
+    background: grey;
+    padding: 4px;
+}
